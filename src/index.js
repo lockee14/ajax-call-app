@@ -25,7 +25,7 @@ class Bar extends React.Component {
 
     render() { // return a loading bar
         return (
-            <div style={{width:this.state.progress + '%', backgroundColor: 'red'}} className="bar"></div>
+            <div style={{width:this.state.progress + '%'}} className="bar"></div>
         );
     }
 }
